@@ -86,6 +86,6 @@ L2,control,output,IOUTMON,right
 L3,control,output,IINMON,right
 L4,control,input,RUN,left
 L5,power,power_in,GND,left
-L6,power,power_in,VIN,left
+L6,power,unspecified,IIN,left
 L7,power,power_in,VIN,left
 L8,power,power_in,VIN,left
