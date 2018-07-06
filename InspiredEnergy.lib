@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SmartBattery_Male
+#
+DEF SmartBattery_Male J 0 40 Y Y 1 F N
+F0 "J" 50 300 50 H V C CNN
+F1 "SmartBattery_Male" 350 200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 0 150 500 -450 0 1 10 f
+X SCL 2 -100 -150 100 R 50 50 1 1 B
+X SDA 3 -100 -250 100 R 50 50 1 1 B
+X Thermistor 4 -100 -350 100 R 50 50 1 1 P
+X + A1 -100 50 100 R 50 50 1 1 U
+X - A2 -100 -50 100 R 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
+#End Library
